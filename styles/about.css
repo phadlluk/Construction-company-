@@ -1,0 +1,248 @@
+.construction {
+  background: rgba(31, 31, 31, 0.8) url(./../media/hero-bg.png);
+  height: 39.25rem;
+  width: 100%;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.about {
+  padding: 4rem 8rem;
+}
+.about h1 {
+  border-left: 6px solid #ffb400;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.about p {
+  color: white;
+}
+.about button {
+  background-color: #ffb400;
+  color: white;
+  height: 2.75rem;
+  width: 14rem;
+  margin-top: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.design h1 {
+  color: #ffb400;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.design {
+  padding: 4rem;
+}
+.building {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.lol p {
+  color: white;
+}
+.lol h5 {
+  color: white;
+}
+.lol {
+  display: flex;
+  flex-direction: column;
+}
+p.yellow-line {
+  height: 0.375rem;
+  width: 3.4375rem;
+  background-color: var(--yellow);
+}
+.lorem {
+  /* height: 100%; */
+  width: 100%;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 5rem;
+}
+.box p {
+  color: rgba(0, 0, 0, 0.4);
+}
+.lorem h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.best {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 60%;
+}
+.left-best {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 3rem;
+}
+.left-best h1 {
+  margin-bottom: 2rem;
+}
+.left-best h3 {
+  margin-bottom: 1.5rem;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.arrow img {
+  margin-bottom: 6rem;
+}
+.left-best button {
+  height: 3rem;
+  width: 10rem;
+  background: rgba(0, 0, 0, 0.01);
+  border: 4px solid #ffb400;
+  color: #ffb400;
+  margin-left: 12rem;
+}
+.right-best {
+  display: grid;
+  grid-template-rows: 1fr 7.25rem;
+}
+.right-best img {
+  width: 100%;
+  background-size: cover;
+  height: 46.375rem;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.est {
+  background-color: #ffb400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.est h1 {
+  font-size: 2.5rem;
+}
+.pro {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pro h1 {
+  font-size: 2.5rem;
+}
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.ceo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12vh auto;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.ceo p {
+  margin-bottom: 2rem;
+}
+.contact {
+  width: 100%;
+  height: 31.3125rem;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.black-line {
+  height: 0.275rem;
+  width: 2rem;
+  background-color: black;
+}
+.left-contact {
+  background-color: #ffb400;
+  padding: 4rem 3rem;
+}
+.left-contact h1 {
+  margin: 1rem 0;
+}
+.inputs {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.inputs input {
+  padding: 0.5rem;
+}
+.msg {
+  padding: 0.5rem 0;
+}
+.msg textarea {
+  padding: 1rem;
+}
+.left-contact button {
+  border: 4px solid white;
+  background: #ffb400;
+  height: 2.5625rem;
+  width: 13.125rem;
+  color: white;
+  margin-left: 9.75rem;
+}
+.socials {
+  height: 4rem;
+  width: 100%;
+  background-color: black;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 1rem;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 16rem 0 0;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 11rem 0 0;
+}
