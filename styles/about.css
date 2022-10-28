@@ -66,6 +66,7 @@ p.yellow-line {
   height: 0.375rem;
   width: 3.4375rem;
   background-color: var(--yellow);
+  margin: 2vh auto;
 }
 .lorem {
   /* height: 100%; */
@@ -84,14 +85,16 @@ p.yellow-line {
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .best {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 60%;
+  grid-template-columns: 1fr 80%;
 }
 .left-best {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.03);
   padding: 3rem;
 }
 .left-best h1 {

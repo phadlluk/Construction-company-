@@ -73,3 +73,140 @@
   gap: 2rem;
   padding: 5rem 9.5rem;
 }
+.yellow-line {
+  height: 0.3rem;
+  width: 3rem;
+  background: #ffb400;
+  margin-left: 2rem;
+}
+.process {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  height: 39rem;
+}
+.lectus {
+  background-color: #2a2a2a;
+}
+.lectus h1 {
+  color: white;
+  margin: 5rem 3rem 3rem 2rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.lectus p:last-child {
+  color: white;
+  margin: 3rem 2rem 0 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.right-pro {
+  display: grid;
+  grid-template-rows: 1fr 7.25rem;
+}
+.right-pro img {
+  background-size: cover;
+  width: 100%;
+  height: 40.375rem;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bottom1 {
+  background-color: #ffb400;
+  padding: 1.5rem 6rem 2rem 2rem;
+}
+.bottom1 h1 {
+  padding-bottom: 0.35rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.bottom2 {
+  background-color: #ffffff;
+  margin: auto;
+}
+.bottom2 button {
+  border: 3px solid black;
+  height: 3rem;
+  width: 12rem;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.project {
+  height: 70rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.top h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+.yellow-line4 {
+  height: 0.3rem;
+  width: 3.4375rem;
+  background: #ffb400;
+  margin: 1rem 6rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 8rem;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  height: 17.9375rem;
+  width: 61.2rem;
+  /* margin: 2rem 0 0 14.2rem; */
+}
+.boxes {
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+.boxes h5 {
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 0.9375rem;
+}
+.boxes p {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  margin: 1.5rem 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+.boxes button {
+  height: 2rem;
+  width: 8rem;
+  background: white;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.end button {
+  border: 4px solid black;
+  background: white;
+  height: 3rem;
+  width: 12rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
